@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="nested_black_alpha_50">#7F000000</color>
+    <color name="nested_color_fafbfc">#fafbfc</color>
+    <color name="nested_promptcolor_969fa9">#969fa9</color>
+    <color name="nested_t_c_blue_4285f4">#4285f4</color>
+    <color name="nested_t_c_black_969fa9">#969fa9</color>
+    <color name="nested_color_262A2F">#262A2F</color>
+    <color name="nested_c_D9B030">#D9B030</color>
+    <color name="nested_c_F7F7F7">#F7F7F7</color>
+    <color name="nested_C_F7F7F7">#F7F7F7</color>
+    <color name="nested_c_D3A468">#D3A468</color>
+    <color name="nested_c_D3A468_12">#1ED3A468</color>
+    <color name="nested_color_26262626">#26262626</color>
+    <color name="nested_color_65A1EF">#65A1EF</color>
+
+    <color name="nested_c_F3F5F6">#F3F5F6</color>
+    <color name="nested_c_F95355">#F95355</color>
+    <color name="nested_c_F95355_12">#1EF95355</color>
+    <color name="nested_c_F95355_10">#1AF95355</color>
+    <color name="nested_c_F6A623">#F6A623</color>
+    <color name="nested_c_F67F23">#F67F23</color>
+</resources>

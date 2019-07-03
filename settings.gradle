@@ -1,0 +1,7 @@
+include ':app'
+
+include(
+        ':lib:lib_listener',
+        ':lib:lib_nested',
+        ':lib:lib_lottie',
+)

@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+def cfg = rootProject.ext.androidVersionConfig
+
+android {
+    compileSdkVersion cfg.androidCompileSdkVersion
+    defaultConfig {
+        applicationId "com.android.life01"
+        minSdkVersion cfg.androidMinSdkVersion
+        targetSdkVersion cfg.androidTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
+
+    implementation project(':lib:lib_listener')
+    implementation project(':lib:lib_nested')
+    compile project(path: ':lib:lib_lottie')
+}

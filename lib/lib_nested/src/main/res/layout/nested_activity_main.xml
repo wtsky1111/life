@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.lib_nested.view.NestedVerticalContainerLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.android.lib_nested.view.NestedWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.android.lib_nested.view.NestedRecycleView
+            android:id="@+id/recycleview_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.android.lib_nested.view.NestedVerticalContainerLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_scroll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="滚动"
+            android:textColor="@color/nested_t_c_blue_4285f4"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+ext {
+    supportLibVersion = '26.0.0'
+
+
+    androidVersionConfig = [
+            androidMinSdkVersion    : 21,
+            androidTargetSdkVersion : 26,
+            androidCompileSdkVersion: 26,
+    ]
+}
