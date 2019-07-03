@@ -159,9 +159,6 @@ public class NestedWebView extends WebView implements NestedScrollingChild2 {
         if (range == 0) {
             return true;
         }
-//        Log.d("csdcsdcsc","offset="+offset+"#range="+range+"#Math="+Math.abs(offset - range));
-
-        Log.d("csdcsdcsc", canScrollVertically(1) ? "true" : "false");
 
         return Math.abs(offset - range) < 3 * getResources().getDisplayMetrics().density;
     }
